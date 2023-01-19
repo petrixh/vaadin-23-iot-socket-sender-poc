@@ -1,3 +1,25 @@
+# How to build and run
+
+A POC of making socket connections in pure Java that updates the UI state of a Vaadin application. 
+Additionally, the UI can send a custom message to the client through the HelloWorld TextField and Button. 
+
+A basic Vaadin project, so follow start.vaadin.com description below to build and run. 
+
+To the IoTSender under the `application`-package, simply run the main method (through IDE) or
+compile and run it with: 
+
+```
+javac IoTSender.java
+java IoTSender.java
+```
+
+The client will ping the server until killed with `Ctrl + C`. 
+
+##############
+# https://start.vaadin.com default description
+##############
+
+
 # SocketHelloWorld
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
